@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(218, 83, 105);
+    margin: 0;
+}
+.contain{
+    margin: 0;
+    position: relative;
+    background-color: rgb(204, 204, 24);
+    display: flex;
+    align-content: flex-start;
+    min-height:80vh;
+}
+.contain:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    right:35%;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-top:  100px solid rgb(204, 204, 24);
+    border-right:100px solid transparent;
+}
+.contain .div{
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    margin:auto;
+    margin-top: 10px;
+}
+h2{
+    color:white ;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px;
+}
+#fig{
+    background-color: rgba(0, 0, 0, 0.275);
+    margin: auto;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    justify-content: center;
+}
+#fig p{
+    margin: auto;
+}
